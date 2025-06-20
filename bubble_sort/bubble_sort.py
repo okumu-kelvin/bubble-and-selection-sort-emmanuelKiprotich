@@ -1,4 +1,7 @@
+numbers = [5, 2, 4, 6, 1, 3]
+
 def bubble_sort(unsorted_list):
+    
     arr = list(unsorted_list)
     n = len(arr)
     for i in range(n):
